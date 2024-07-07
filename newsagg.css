@@ -1,0 +1,131 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color:white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcd00;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #ffcd00;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: #333;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.news-section {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.news-article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.news-article:hover {
+    transform: translateY(-5px);
+}
+
+.news-article h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center; 
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    background-color: #f8f9fa; /* Light gray background similar to Quantamaze */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image: radial-gradient(circle at 50% 50%, #1e5799, #2989d8, #7db9e8);
+    background-size: cover;
+    background-attachment: fixed;
+}
